@@ -3,7 +3,7 @@ require 'uri'
 require 'json'
 
 
-# deserualize json obj
+# deserialize json obj
 def deserialize(json_obj) 
     JSON.parse(json_obj)
 end
